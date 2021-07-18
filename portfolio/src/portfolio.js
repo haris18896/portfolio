@@ -25,6 +25,46 @@ const socialMediaLinks = {
 
 const skillsSection = {
     display: true,
+    title: "What I do",
+    subTitle: "I'M, A FULL STACK WEB APP DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+    skills: [
+        emoji("⚡ will develop highly interactive Front end and user interface for your Web applications and business."),
+        emoji("⚡ will design custom database using postgreSQL and Django as Backend"),
+        emoji("⚡ will do DB Normalization and make ER-Diagrams"),
+        emoji("⚡ Integration of third party services such as firebase, Stripe, PayPal")
+    ],
+
+    softwareSkills: [
+        {
+            skillName: "html-5",
+            fontAwesomeClassname: "fab fa-html5"
+        },
+        {
+            skillName: "css3",
+            fontAwesomeClassname: "fab fa-css3-alt"
+        },
+        {
+            skillName: "JavaScript",
+            fontAwesomeClassname: "fab fa-js"
+          },
+          {
+            skillName: "reactjs",
+            fontAwesomeClassname: "fab fa-react"
+          },
+          {
+            skillName: "sql-database",
+            fontAwesomeClassname: "fas fa-database"
+          },
+          {
+            skillName: "firebase",
+            fontAwesomeClassname: "fas fa-fire"
+          },
+          {
+            skillName: "python",
+            fontAwesomeClassname: "fab fa-python"
+          },
+
+    ]
 };
 
 const educationInfo = {};
