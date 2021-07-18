@@ -35,14 +35,14 @@ export default function Skills(){
                         <h1 className={isDark ? "dark-mode skills-heading" : "skills-heading"}>
                             {skillsSection.title}{" "}
                         </h1>
-                        <p className={isDark ? "dark-mode skills-subtitle skills-text-subtitle" : "skills-subtitle skills-text-subtitle"}>
+                        <p className={isDark ? "dark-mode skills-subtitle skills-text-subtitle" : "skills-subtitle-p skills-text-subtitle"}>
                             {skillsSection.subTitle}
                         </p>
                         <SoftwareSkills />
                         <div>
                             {skillsSection.skills.map((skills, i) => {
                                 return (
-                                    <p key={i} className={isDark ? "dark-mode skills-subtitle skills-text": " skills-subtitle skills-text"}>
+                                    <p key={i} className={isDark ? "dark-mode skills-subtitle skills-text": " skills-subtitle-p skills-text"}>
                                         {skills}
                                     </p>
                                 );
