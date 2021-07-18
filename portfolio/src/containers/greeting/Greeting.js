@@ -5,7 +5,7 @@ import {illustration, greeting} from '../../portfolio';
 import {Zoom} from 'react-reveal';
 import emoji from 'react-easy-emoji';
 import DisplayLottie from '../../components/displayLottie/DisplayLottie';
-import update from '../../assets/lottie/update'
+import update from '../../assets/lottie/update';
 import Button from '../../components/button/Button';
 import SocialMedia from '../../components/socialMedia/SocialMedia';
 import styled from 'styled-components'

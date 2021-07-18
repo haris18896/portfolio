@@ -69,7 +69,42 @@ const skillsSection = {
 
 const educationInfo = {};
 
-const techStack = {};
+const techStack = {
+    displayCodersrank: true,
+    viewSkillBars: true,
+    experience: [
+        {
+            Stack: "HTML 5",
+            progressPercentage: "97%",
+            fontAwesomeClassname: "fab fa-html5"
+        },
+        {
+            Stack: "CSS 3",
+            progressPercentage: "85%",
+            fontAwesomeClassname: "fab fa-css3-alt"
+        },
+        {
+            Stack: "JavaScript",
+            progressPercentage: "81%",
+            fontAwesomeClassname: "fab fa-js"
+        },
+        {
+            Stack: "React JS",
+            progressPercentage: "75%",
+            fontAwesomeClassname: "fab fa-react"
+        },
+        {
+            Stack: "SQL and Database design",
+            progressPercentage: "85%",
+            fontAwesomeClassname: "fas fa-database"
+        },
+        {
+            Stack: "Python",
+            progressPercentage: "90%",
+            fontAwesomeClassname: "fab fa-python"
+        },
+    ]
+};
 
 const workExperiences = {};
 

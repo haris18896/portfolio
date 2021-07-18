@@ -1,0 +1,85 @@
+.meter {
+  height: 20px;
+  position: relative;
+  background: rgb(133, 133, 133);
+  -moz-border-radius: 25px;
+  -webkit-border-radius: 25px;
+  border-radius: 25px;
+}
+.meter > span {
+  display: block;
+  height: 100%;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  background-color: #8ea330;
+  position: relative;
+  overflow: hidden;
+}
+.skill > p{
+  /* line-height: 3.5vw; */
+
+  margin-bottom: 10px;
+}
+
+.skill > i{
+    color: #868e96;
+    margin-top: 10px;
+    font-size: 2rem;
+}
+
+.skill > i:hover{
+  color: orange;
+}
+
+.skill > p{
+  color: #868e96;
+  font-size: 10px;
+}
+
+.skill > i:hover ~ p{
+  color: orange;
+}
+
+
+
+
+.skill-bars {
+  font-size: 28px;
+  width: 40%;
+}
+.skills-container {
+  display: flex;
+  width: 90%;
+  padding: 20px 10px;
+  margin: 0px auto;
+  margin-top: 2rem;
+}
+.skills-container > * {
+  flex: 1;
+  margin-bottom: 30px;
+}
+.skills-image > img {
+  margin-left: 80px;
+  max-width: 90%;
+  height: auto;
+}
+
+/* Media Query */
+
+@media (max-width: 1456px) {
+  .skills-bar {
+    line-height: 4rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .skills-container {
+    flex-direction: column;
+  }
+  .skills-bar {
+    line-height: 3rem;
+    margin: 20px;
+  }
+}

@@ -3,6 +3,7 @@ import Header from '../components/header/Header';
 import { StyleProvider } from '../contexts/StyleContext';
 import Greeting from './greeting/Greeting';
 import './Main.css';
+import SkillProgress from './skillProgress/SkillProgress';
 import Skills from './skills/Skills';
 
 export default class Main extends Component {
@@ -34,6 +35,7 @@ export default class Main extends Component {
                 <Header />
                 <Greeting />
                 <Skills />
+                <SkillProgress />
             </StyleProvider>
         </div>
     );
