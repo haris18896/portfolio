@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Header from '../components/header/Header';
 import { StyleProvider } from '../contexts/StyleContext';
+import Education from './education/Education';
 import Greeting from './greeting/Greeting';
 import './Main.css';
 import SkillProgress from './skillProgress/SkillProgress';
@@ -36,6 +37,7 @@ export default class Main extends Component {
                 <Greeting />
                 <Skills />
                 <SkillProgress />
+                <Education />
             </StyleProvider>
         </div>
     );

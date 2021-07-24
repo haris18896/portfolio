@@ -67,7 +67,27 @@ const skillsSection = {
     ]
 };
 
-const educationInfo = {};
+const educationInfo = {
+    display: true,
+    schools : [
+        {
+            schoolName : "University of Engineering and Technology, Peshawar",
+            logo: require("./assets/images/uet.png"),
+            subHeader : "Bachelor of Electrical and Electronics Engineering",
+            duration : "Aug 2016 to Oct 2020",
+            desc : "Completed Bachelors with good grades, participated in multiple small projects and successfully completed FYP on Commercial scale",
+            descBullets : ["FYP: Raspberry-Pi based Cheque and Cash Deposit machine with digital Wallet"]
+        },
+        {
+            schoolName : "Nisar Shaheed Degree College, Nowshera",
+            logo: require("./assets/images/nsdc.jpg"),
+            subHeader : "Pre-Engineering",
+            duration : "Aug 2013 to July 22015",
+            desc : "Won Awards on district level in Physics and Mathematics",
+            descBullets : ["won Awards in Physics"]
+        }
+    ]
+};
 
 const techStack = {
     displayCodersrank: true,
