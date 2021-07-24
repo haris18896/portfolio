@@ -4,7 +4,7 @@ import { illustration, skillsSection } from '../../portfolio';
 import './Skills.css';
 import DisplayLottie from '../../components/displayLottie/DisplayLottie';
 import codingPerson from '../../assets/lottie/codingPerson';
-import {Fade, Roll} from 'react-reveal';
+import {Fade} from 'react-reveal';
 import SoftwareSkills from '../../components/softwareSkills/SoftwareSkills'
 
 

@@ -40,6 +40,9 @@
 .education-card-right{
     max-width: 60%;
 }
+.education-card-left{
+    max-width: 40%;
+}
 
 .education-roundedimg{
     object-fit: cover;
@@ -48,6 +51,10 @@
     height: 6rem;
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.3);
     border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
 }
 
 .education-text-subHeader{
@@ -81,7 +88,7 @@
         flex-direction: column;
         padding-bottom: 10px;
     }
-    .educaiton-card-right{
+    .education-card-right{
         width: 90%;
     }
     .education-card-border{

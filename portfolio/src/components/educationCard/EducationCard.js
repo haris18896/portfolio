@@ -1,7 +1,7 @@
 import React,{createRef, useContext} from 'react'
 import './EducationCard.css';
 import StyleContext from '../../contexts/StyleContext';
-import { Fade, Slide, Zoom, Rotate } from 'react-reveal';
+import { Slide, Rotate } from 'react-reveal';
 import { educationInfo } from '../../portfolio';
 
 export default function EducationCard({school}){
@@ -22,14 +22,15 @@ export default function EducationCard({school}){
         <div>
             <Rotate top left duration={1000}>
                 <div className="education-card">
-                    <div className="education-card-left">
-                        {/* <img
-                         crossOrigin={"anonymous"}
-                         alt={school.schoolName}
-                         src={school.logo}
-                         className="education-roundedimg"
-                        /> */}
-                    </div>
+                <div className="education-card-left">
+                    <img
+                    crossOrigin={"anonymous"}
+                    ref={imgRef}
+                    className="education-roundedimg"
+                    src={educationInfo.schools.logo}
+                    alt={educationInfo.schools.schoolName}
+                    />
+                </div>
                     <div className="education-card-right">
                         <h5 className="education-text-school">{school.schoolName}</h5>
                         <div className="education-text-detail">
