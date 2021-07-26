@@ -6,6 +6,7 @@ import Greeting from './greeting/Greeting';
 import './Main.css';
 import SkillProgress from './skillProgress/SkillProgress';
 import Skills from './skills/Skills';
+import WorkExperience from './workExperience/WorkExperience';
 
 export default class Main extends Component {
 
@@ -38,6 +39,7 @@ export default class Main extends Component {
                 <Skills />
                 <SkillProgress />
                 <Education />
+                <WorkExperience />
             </StyleProvider>
         </div>
     );

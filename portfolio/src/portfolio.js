@@ -84,7 +84,7 @@ const educationInfo = {
             subHeader : "Pre-Engineering",
             duration : "Aug 2013 to July 22015",
             desc : "Won Awards on district level in Physics and Mathematics",
-            descBullets : ["won Awards in Physics"]
+            descBullets : ["Won shield in Physics"]
         }
     ]
 };
@@ -126,7 +126,47 @@ const techStack = {
     ]
 };
 
-const workExperiences = {};
+const workExperiences = {
+    display: true,
+    experience : [
+        {
+            role: "Project Engineer - Trainee",
+            company: "Enter - Adsells Advertising Pvt Ltd.",
+            companyLogo: require("./assets/images/adsells.jpg"),
+            date: "Jan 2020 - Apr 2020",
+            desc:"Designing and developing new methods of transaction for Banking sectors",
+            descBullets : [
+                "Work with senior managers to design control system projects for clients in Banking Sectors.",
+                "Working with a R&D, Team to to create Simple and Flexible machines",
+            ]
+        },
+        {
+            role: "Building Automation Engineer - Training",
+            company: "HDL Pakistan pvt Ltd.",
+            companyLogo: require("./assets/images/hdl.png"),
+            date: "15 Dec 2019 - 19 Dec 2019",
+            desc:"Automating Every Tech Stack of building",
+            descBullets : [
+                "Concept of Smart and importance of smart Buildings.",
+                "Using Buspro Setup tool 2 for Configurations of Different HDL Modules.",
+                "Worked on High Power fast actuators",
+                "Worked on motion and lux sensor to make easy control of lighting and shades of any building.",
+                "Configuration of Smart Switch Panels.",
+            ]
+        },
+        {
+            role: "Intern",
+            company: "Lean Automation Pvt Ltd.",
+            companyLogo: require("./assets/images/lean.png"),
+            date: "Jan - March 2018",
+            desc:"Designing and Developing small Projects",
+            descBullets : [
+                "Worked on different small projects",
+                "Technical presentations",
+            ]
+        },
+    ]
+};
 
 const openSource = {};
 

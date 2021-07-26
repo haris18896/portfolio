@@ -22,15 +22,15 @@ export default function EducationCard({school}){
         <div>
             <Rotate top left duration={1000}>
                 <div className="education-card">
-                <div className="education-card-left">
-                    <img
-                    crossOrigin={"anonymous"}
-                    ref={imgRef}
-                    className="education-roundedimg"
-                    src={educationInfo.schools.logo}
-                    alt={educationInfo.schools.schoolName}
-                    />
-                </div>
+                    <div className="education-card-left">
+                        <img
+                        crossOrigin={"anonymous"}
+                        ref={imgRef}
+                        className="education-roundedimg"
+                        src={educationInfo.schools.logo}
+                        alt={educationInfo.schools.schoolName}
+                        />
+                    </div>
                     <div className="education-card-right">
                         <h5 className="education-text-school">{school.schoolName}</h5>
                         <div className="education-text-detail">
