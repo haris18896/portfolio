@@ -1,4 +1,9 @@
 import emoji from 'react-easy-emoji';
+import uet from "./assets/images/uet.png";
+import nsdc from "./assets/images/nsdc.jpg";
+import adsells from "./assets/images/adsells.jpg";
+import hdl from "./assets/images/hdl.png";
+import lean from "./assets/images/lean.png"
 
 const illustration = {
     animated: true
@@ -72,7 +77,7 @@ const educationInfo = {
     schools : [
         {
             schoolName : "University of Engineering and Technology, Peshawar",
-            logo: require("./assets/images/uet.png"),
+            logo: uet,
             subHeader : "Bachelor of Electrical and Electronics Engineering",
             duration : "Aug 2016 to Oct 2020",
             desc : "Completed Bachelors with good grades, participated in multiple small projects and successfully completed FYP on Commercial scale",
@@ -80,7 +85,7 @@ const educationInfo = {
         },
         {
             schoolName : "Nisar Shaheed Degree College, Nowshera",
-            logo: require("./assets/images/nsdc.jpg"),
+            logo: nsdc,
             subHeader : "Pre-Engineering",
             duration : "Aug 2013 to July 22015",
             desc : "Won Awards on district level in Physics and Mathematics",
@@ -132,7 +137,7 @@ const workExperiences = {
         {
             role: "Project Engineer - Trainee",
             company: "Enter - Adsells Advertising Pvt Ltd.",
-            companyLogo: require("./assets/images/adsells.jpg"),
+            companyLogo: adsells,
             date: "Jan 2020 - Apr 2020",
             desc:"Designing and developing new methods of transaction for Banking sectors",
             descBullets : [
@@ -143,7 +148,7 @@ const workExperiences = {
         {
             role: "Building Automation Engineer - Training",
             company: "HDL Pakistan pvt Ltd.",
-            companyLogo: require("./assets/images/hdl.png"),
+            companyLogo: hdl,
             date: "15 Dec 2019 - 19 Dec 2019",
             desc:"Automating Every Tech Stack of building",
             descBullets : [
@@ -157,7 +162,7 @@ const workExperiences = {
         {
             role: "Intern",
             company: "Lean Automation Pvt Ltd.",
-            companyLogo: require("./assets/images/lean.png"),
+            companyLogo: lean,
             date: "Jan - March 2018",
             desc:"Designing and Developing small Projects",
             descBullets : [

@@ -2,7 +2,7 @@ import React,{createRef, useContext} from 'react'
 import './EducationCard.css';
 import StyleContext from '../../contexts/StyleContext';
 import { Slide, Rotate } from 'react-reveal';
-import { educationInfo } from '../../portfolio';
+// import { educationInfo } from '../../portfolio';
 
 export default function EducationCard({school}){
     const {isDark } = useContext(StyleContext);
@@ -27,8 +27,8 @@ export default function EducationCard({school}){
                         crossOrigin={"anonymous"}
                         ref={imgRef}
                         className="education-roundedimg"
-                        src={educationInfo.schools.logo}
-                        alt={educationInfo.schools.schoolName}
+                        src={school.logo}
+                        alt={school.schoolName}
                         />
                     </div>
                     <div className="education-card-right">

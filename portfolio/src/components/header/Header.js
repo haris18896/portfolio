@@ -20,7 +20,7 @@ function Header() {
     const viewExperience = workExperiences.display;
     const viewOpenSource = openSource.display;
     const viewSkills = skillsSection.display;
-    const viewEeducation = educationInfo.display;
+    const viewEducation = educationInfo.display;
     const viewAchievement = achievementSection.display;
     const viewBlog = blogSection.display;
     const viewTalks = talkSection.display;
@@ -41,7 +41,7 @@ function Header() {
                         <a href="#skills">Skills</a>
                     </li>
                 )}
-                {viewEeducation && (
+                {viewEducation && (
                     <li>
                         <a href="#education">Education</a>
                     </li>
